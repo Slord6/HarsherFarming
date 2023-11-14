@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "reference",
+      "name": "slord:hot_biome"
+    },
+    {
+      "condition": "weather_check",
+      "raining": true
+    }
+  ]
+}

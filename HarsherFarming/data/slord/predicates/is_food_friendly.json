@@ -1,0 +1,44 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "inverted",
+          "term": {
+            "condition": "reference",
+            "name": "slord:cold_biome"
+          }
+        },
+        {
+          "condition": "inverted",
+          "term": {
+            "condition": "reference",
+            "name": "slord:hot_biome"
+          }
+        },
+        {
+          "condition": "inverted",
+          "term": {
+            "condition": "reference",
+            "name": "slord:underground_biome"
+          }
+        },
+        {
+          "condition": "weather_check",
+          "raining": false
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "reference",
+          "name": "slord:hot_biome_raining"
+        }
+      ]
+    }
+  ]
+}
