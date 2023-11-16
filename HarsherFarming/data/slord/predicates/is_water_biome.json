@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "reference",
+      "name": "slord:ocean_biome"
+    },
+    {
+      "condition": "reference",
+      "name": "slord:river_biome"
+    }
+  ]
+}
