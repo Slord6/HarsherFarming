@@ -23,5 +23,10 @@ A lightweight Minecraft datapack that makes farming more difficult.
 - Fishing Rods:
     - Only work in Ocean & River biomes
     - 50/50 chance as to whether a caught fish actually causes an uncooked fish to spawn
-- Cows/Pigs/Rabbits
-    - Reduced rates of Steak/Pork/Rabbit
+- Cows/Pigs/Rabbits/Sheep/Chicken
+    - 0.2x chance to get 1 meat per animal
+
+
+## Other blocks
+
+- Grass and tall grass have decreased drop rates for wheat seeds
